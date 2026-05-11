@@ -26,9 +26,10 @@ python3 -m http.server 8765
 ```
 .
 ├── index.html        # 앱 본체 (HTML + CSS + JS 단일 파일)
-├── TEST_REPORT.md    # Playwright 자동화 테스트 보고서
-└── screenshots/      # 테스트 단계별 스크린샷
+└── TEST_REPORT.md    # Playwright 자동화 테스트 보고서
 ```
+
+> 참고: 자동화 테스트 과정에서 측정된 스크린샷(`screenshots/*.png`)은 로컬 아티팩트로 보관 중이며, 이 저장소에는 포함되어 있지 않습니다. 테스트 결과 요약은 [`TEST_REPORT.md`](TEST_REPORT.md)에서 텍스트로 확인할 수 있습니다.
 
 ## 테스트 결과
 

@@ -6,23 +6,7 @@
 - **실행 환경**: 로컬 HTTP 서버 (`http://localhost:8765/index.html`)
 - **종합 결과**: ✅ **전체 통과 (8/8)**
 
----
-
-## 0. 스크린샷
-
-### 0-1. 초기 빈 상태
-![초기 빈 상태](screenshots/01-initial-empty.png)
-
-### 0-2. 3개 항목 추가 후 ("우유", "빵", "사과")
-![3개 항목 추가](screenshots/02-items-added.png)
-
-### 0-3. 체크박스 토글 후 (우유·사과 체크 — `line-through` 적용, "2개 완료")
-![체크 토글](screenshots/03-items-checked.png)
-
-### 0-4. 전체 삭제 후 (confirm 수락)
-![전체 삭제 후](screenshots/04-all-cleared.png)
-
-> 참고: 브라우저 네이티브 `confirm` 다이얼로그는 페이지 외부 UI여서 스크린샷으로 캡처되지 않습니다. 본 보고서에서는 다이얼로그 수락 전후 상태 변화로 동작을 검증합니다.
+> 참고: 단계별 스크린샷은 로컬 작업 디렉토리의 `screenshots/` 폴더에 보관되어 있으며, 이 저장소에는 포함되어 있지 않습니다.
 
 ---
 
